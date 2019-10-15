@@ -15,7 +15,7 @@ def main():
     # variables
     correct_number = random.randint(0, 9)
     # input
-    guess = int(input("Guess the number between 0 & 9 (integer): "))
+    guess = (input("Guess the number between 0 & 9 (integer): "))
     print("")
 
     # process
